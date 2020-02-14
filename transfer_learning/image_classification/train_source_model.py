@@ -1,4 +1,4 @@
-import transfer_learning_github  #transfer_img_classification
+import transfer_img_classification
 
 if __name__ == "__main__":
   img_height = 32
