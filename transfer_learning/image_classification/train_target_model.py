@@ -6,9 +6,9 @@ if __name__ == "__main__":
   path = "./images/ILSVRC/Data/CLS-LOC/train/"
 
   # Load target data
-  train_c1_list = [('n02123045', 1), ('n02123159', 1), ('n02123394', 1)]  # Cats dataset
+  train_c1_list = ['n02123045', 'n02123159', 'n02123394']  # Cats dataset
   test_c1_list = train_c1_list
-  train_c0_list = [('n01440764', 0), ('n01443537', 0)]  # Other animals dataset
+  train_c0_list = [('n01440764', 'n01443537']  # Other animals dataset
   test_c0_list = train_c0_list
   train_c1_interval = (0, 150)
   train_c0_interval = (1000, 1225)
