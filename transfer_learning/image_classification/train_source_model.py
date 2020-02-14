@@ -3,7 +3,7 @@ import transfer_learning_github  #transfer_img_classification
 if __name__ == "__main__":
   img_height = 32
   img_width = 32
-  path = 'images/ILSVRC/Data/CLS-LOC/train/'  # Directory path of image dataset
+  path = './images/ILSVRC/Data/CLS-LOC/train/'  # Directory path of image dataset
 
   # Load source data
   # Image data are from ImageNet
