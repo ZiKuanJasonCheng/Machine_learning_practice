@@ -8,7 +8,14 @@ from random import shuffle
 import time
 import cv2
 
-path = "./images/ILSVRC/Data/CLS-LOC/train/"
+'''
+Transfer learning for image classification
+Transfer from a dog recognition model to a cat recognition model
+The scripts are implemented with Python 3.7 and the model is implemented with Tensorflow 1.14.0
+Image data are from ImageNet dataset
+'''
+
+path = "./images/ILSVRC/Data/CLS-LOC/train/"  # Path of ImageNet dataset
 
 tf.debugging.set_log_device_placement(True)  # Find out which devices your operations and tensors are assigned to
 
