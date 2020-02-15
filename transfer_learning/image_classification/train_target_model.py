@@ -23,7 +23,7 @@ if __name__ == "__main__":
   X_train, y_train, X_test, y_test = transfer_learning_github.read_data(path, train_c1_list, train_c1_interval, train_c0_list, train_c0_interval, test_c1_list,
                                                test_c1_interval, test_c0_list, test_c0_interval)
 
-  load_ckpt_meta = './source_model/202002132209_model_epoch500.ckpt'  # Model checkpoint file path
+  load_ckpt_meta = './source_model/202002142042_model_epoch500.ckpt'  # Model checkpoint file path
   # The following settings are: initialize the weights of 2 conv filters from trained source model and freeze them during back propagation.
   dict_config = {'ckpt': load_ckpt_meta, 'init_scope': 'filters[12]', 'trainable_scope': 'filters3|dense[123]'}
   transfer_learning_github.train_model(X_train, y_train, X_test, y_test, img_height, img_width, source=False, )
