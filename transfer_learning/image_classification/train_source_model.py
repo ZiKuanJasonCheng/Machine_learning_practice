@@ -1,5 +1,11 @@
 import transfer_img_classification
 
+'''
+Transfer learning for image classification
+Transfer from a dog recognition model to a cat recognition model
+Run this file to train a source model
+'''
+
 if __name__ == "__main__":
   img_height = 32
   img_width = 32
