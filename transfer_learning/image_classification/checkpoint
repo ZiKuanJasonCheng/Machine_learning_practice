@@ -1,0 +1,6 @@
+model_checkpoint_path: "/media/jason/Data/Google Drive(NCU G Suite)/CSIE/Introduction to Deep Learning/transfer_learning/image_classification/source_model/202002142042_model_epoch500.ckpt"
+all_model_checkpoint_paths: "/media/jason/Data/Google Drive(NCU G Suite)/CSIE/Introduction to Deep Learning/transfer_learning/image_classification/source_model/202002142042_model_epoch100.ckpt"
+all_model_checkpoint_paths: "/media/jason/Data/Google Drive(NCU G Suite)/CSIE/Introduction to Deep Learning/transfer_learning/image_classification/source_model/202002142042_model_epoch200.ckpt"
+all_model_checkpoint_paths: "/media/jason/Data/Google Drive(NCU G Suite)/CSIE/Introduction to Deep Learning/transfer_learning/image_classification/source_model/202002142042_model_epoch300.ckpt"
+all_model_checkpoint_paths: "/media/jason/Data/Google Drive(NCU G Suite)/CSIE/Introduction to Deep Learning/transfer_learning/image_classification/source_model/202002142042_model_epoch400.ckpt"
+all_model_checkpoint_paths: "/media/jason/Data/Google Drive(NCU G Suite)/CSIE/Introduction to Deep Learning/transfer_learning/image_classification/source_model/202002142042_model_epoch500.ckpt"
